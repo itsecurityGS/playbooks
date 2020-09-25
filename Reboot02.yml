@@ -1,4 +1,6 @@
-  - name: reboot the system
+---
+
+ - name: reboot the system
     command: reboot "Refreshment System" && sleep 1
     when: latest_state.changed
     tags: Refreshment
